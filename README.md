@@ -1,7 +1,7 @@
 # **6-DOF Robotic Arm in ROS 2**
 
-Author: Ilknur Koparır
-Date: 17.12.2025
+Author: Ilknur KOPARIR
+
 
 ## **Project Overview**
 
