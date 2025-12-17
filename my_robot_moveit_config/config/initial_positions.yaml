@@ -1,0 +1,10 @@
+# Default initial positions for arm's ros2_control fake system
+
+initial_positions:
+  arm_to_elbow_joint: 0
+  base_to_shoulder_joint: 0
+  elbow_to_forearm_joint: 0
+  forearm_to_wrist_joint: 0
+  gripper_left_finger_joint: 0
+  shoulder_to_arm_joint: 0
+  wrist_to_hand_joint: 0

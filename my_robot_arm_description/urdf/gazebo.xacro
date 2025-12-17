@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <gazebo reference="base_link">
+        <material>Gazebo/Blue</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="shoulder_link">
+        <material>Gazebo/Black</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="arm_link">
+        <material>Gazebo/Blue</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="elbow_link">
+        <material>Gazebo/Black</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="forearm_link">
+        <material>Gazebo/Blue</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="wrist_link">
+        <material>Gazebo/Black</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="hand_link">
+        <material>Gazebo/Blue</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="gripper_base_link">
+        <material>Gazebo/Green</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="gripper_left_finger_link">
+        <material>Gazebo/Green</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+    <gazebo reference="gripper_right_finger_link">
+        <material>Gazebo/Green</material>
+        <mu1 value ="0.1"/>
+        <mu2 value = "0.1"/>
+    </gazebo>
+
+
+   <!-- Gazebo Plugins -->
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <parameters>$(find my_robot_arm_description)/config/ros2_controllers.yaml</parameters>
+    </plugin>	
+  </gazebo>
+
+
+</robot>
