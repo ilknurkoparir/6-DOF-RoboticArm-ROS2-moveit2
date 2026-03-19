@@ -7,9 +7,20 @@ Author: Ilknur KOPARIR
 
 Over the project we built and simulated a 6-Degree-of-Freedom (6-DOF) robotic manipulator in a virtual industrial environment using the Robot Operating System (ROS2). The goal was to take a robotic arm from digital modeling all the way to intelligent motion control — an end-to-end robotic development pipeline.
 
-## **Watch The Video**
 
-[![Watch the video](https://github.com/user-attachments/assets/a45f994a-9dfb-4276-964f-0161fc12020b)](https://drive.google.com/file/d/10RQ2HRr-g1OwPaWHpk6bmsdDzKO48CQ1/view?usp=sharing)
+<div align="center">
+
+## 📺 Demo Video
+
+<a href="https://youtu.be/eUiBadoHhME" target="_blank">
+  <img src="https://img.youtube.com/vi/eUiBadoHhME/maxresdefault.jpg" alt="ROS 2 Moveit2 - Control a Robotic Arm - Watch on YouTube" width="700"/>
+</a>
+
+<br/>
+
+[![▶ Watch on YouTube](https://img.shields.io/badge/▶%20Watch%20on-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/eUiBadoHhME)
+
+</div>
 
 **HOW TO RUN**
 
