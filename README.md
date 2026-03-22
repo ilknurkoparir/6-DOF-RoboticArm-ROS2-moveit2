@@ -14,7 +14,7 @@ Over the project we built and simulated a 6-Degree-of-Freedom (6-DOF) robotic ma
 
 <div align="center">
 <a href="https://youtu.be/KmvKYmH3s50" target="_blank">
-  <img src="https://img.youtube.com/vi/eUiBadoHhME/maxresdefault.jpg" alt="ROS 2 Moveit2 - Control a Robotic Arm - Watch on YouTube" width="700"/>
+  <img src="https://img.youtube.com/vi/KmvKYmH3s50/maxresdefault.jpg" alt="ROS 2 Moveit2 - Control a Robotic Arm - Watch on YouTube" width="700"/>
 </a>
 
 <br/>
